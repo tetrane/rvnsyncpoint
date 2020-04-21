@@ -1,0 +1,6 @@
+add_subdirectory(dump_hardware)
+add_subdirectory(dump_io)
+add_subdirectory(dump_sync_events)
+add_subdirectory(dump_sync_points)
+add_subdirectory(dump_sync_points_data)
+add_subdirectory(reorder_hardware)
