@@ -51,7 +51,7 @@ struct sync_event
 
 	//! The first event may lack its eip, but we know must match the first executed instruction, hence we don't need to
 	//! check for the start context. Note that if an instruction occurs in that event, we cannot know if we should fire
-	//! it during the event or after until the actual REVEN execution.
+	//! it during the event or after until the actual Reven execution.
 	bool is_first_event_context_unknown = false;
 
 	//! Do not store the EIP in context, because although it is part of the start context, the new_context's EIP is not
